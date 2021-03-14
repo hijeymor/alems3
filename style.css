@@ -1,0 +1,40 @@
+.green{
+    width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(35, 194, 35);
+    animation-name: jotaro;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+.roditel{
+margin-left: 200px;
+}
+.mama{
+    display: flex;  
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color: hotpink;
+}
+.grey{
+    background-color: grey;
+}
+.blue{
+    background-color: lightblue;
+}
+@keyframes jotaro{
+    0%{
+
+    }
+    25%{
+        border-radius: 25%;
+    }
+    50%{
+        border-radius: 50%;
+        transform: rotate(90deg);
+    }
+}
